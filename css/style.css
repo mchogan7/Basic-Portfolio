@@ -2,6 +2,7 @@ html {
 	background-image: url("../images/background.png");
 	background-repeat: repeat;
 	overflow-x:hidden;
+	margin-bottom: 60px;
 }
 
 .MyLogo {
@@ -99,6 +100,11 @@ a {
 
   .myLogo{
   	 width: 100% !important;
+  }
+
+  .portfolioItem {
+  	max-width: 100% !important;
+  	margin-right: 0px;
   }
 
 }
@@ -281,4 +287,8 @@ button{
 	flex-wrap: wrap;
 	flex-direction: row;
 	flex-flow: wrap;
+	}
+
+	.menu:hover {
+		color: #4aaaa5;
 	}
